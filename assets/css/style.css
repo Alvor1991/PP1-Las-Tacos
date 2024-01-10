@@ -35,8 +35,8 @@ h1 {
     margin-bottom: 1em;
 }
 
-.active {
-    border-bottom: 1px solid #3a3a3a;
+.active-red {
+    border-bottom: 1px solid #AD4132;
 }
 
 /* Header */
