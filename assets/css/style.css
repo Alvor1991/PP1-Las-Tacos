@@ -18,6 +18,25 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+
+/*******************************
+*                              *
+*         HEADER STYLES        *
+*                              *
+*******************************/
+
+header {
+    background-color: #ffffff;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
 h1 {
     font-family: 'Amatic SC', sans-serif;
         text-transform: uppercase;
@@ -64,18 +83,7 @@ nav {
     font-size: 2rem;
 }
 
-/* Header */
-header {
-    background-color: #ffffff;
-    padding: 0 1rem;
-    position: fixed;
-    z-index: 99;
-    width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a;
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-}
+
 
 header a {
     text-decoration: none;
@@ -87,10 +95,38 @@ main {
     background-color: lightblue;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 47px;
+    margin-top: 60px;
 }
 
 /* Footer */
 footer {
     background-color: orange;
+}
+
+
+
+/*******************************
+*                              *
+*         TABLET SCREENS       *
+*                              *
+*******************************/
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+    /* Header */
+    nnav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+    }
 }
