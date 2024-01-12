@@ -19,11 +19,9 @@ body {
 }
 
 
-/*******************************
-*                              *
-*         HEADER STYLES        *
-*                              *
-*******************************/
+/****************  
+* HEADER STYLES *
+****************/
 
 header {
     background-color: #ffffff;
@@ -96,17 +94,17 @@ main {
     margin-top: 60px;
 }
 
-/* Footer */
+/********* 
+* FOOTER *
+**********/
 
 footer a {
     color: inherit;
 }
 
-/*******************************
-*                              *
-*         TABLET SCREENS       *
-*                              *
-*******************************/
+/****************  
+* TABLET SCREENS *
+*****************
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
@@ -144,6 +142,9 @@ footer a {
     }
 }
 
+/****************  
+* LARGE SCREENS *
+*****************
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
