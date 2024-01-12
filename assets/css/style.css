@@ -37,11 +37,16 @@ header {
     align-items: baseline;
 }
 
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
 h1 {
     font-family: 'Amatic SC', sans-serif;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        color: #252525;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
 }
 
 #menu {
@@ -81,13 +86,6 @@ nav {
 
 .nav-toggle-label {
     font-size: 2rem;
-}
-
-
-
-header a {
-    text-decoration: none;
-    color: inherit;
 }
 
 /* Main content */
@@ -146,6 +144,7 @@ footer {
         margin-top: 79px;
     }
 }
+
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
