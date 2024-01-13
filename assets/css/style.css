@@ -190,10 +190,18 @@ main {
 }
 
 
+/*******************************
+*                              *
+*         MENU PAGE            *
+*                              *
+*******************************/
+
+
 #book-form {
     color: #ffffff;
     background-color: rgba(60, 60, 60, 0.6);
     padding: 30px;
+    border-radius: 10px;
 }
 
 #book-form>h2 {
@@ -219,6 +227,10 @@ main {
     font-size: 100%;
     background-color: #454b1b;
     color: #fafafa;
+}
+
+.col-md-6 {
+    margin-bottom: 15px;
 }
 
 
@@ -323,10 +335,6 @@ footer a {
     #menu a:hover{
         border-bottom: 1px solid #3a3a3a;
     }
-
-    #about-section .container p {
-        margin: 0 150px;
-      }
 }
 
 @media screen and (min-width: 1200px) {    
