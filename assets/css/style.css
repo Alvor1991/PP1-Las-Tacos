@@ -105,6 +105,11 @@ main {
     margin-top: 60px;
 }
 
+/*******************************
+*                              *
+*         INTRO PAGE           *
+*                              *
+*******************************/
 
 /* Hero section */
 #hero {
@@ -112,6 +117,23 @@ main {
     width: 100%;
     background: url("../images/home-image.webp") no-repeat center center/cover;
     position: relative;
+}
+
+  .custom-btn {
+    width: 100px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-weight: 500;
+    transition: background 0.3s ease;
+    margin-left: 0;
+    border: none;
+    background: #678d46;
+}
+
+.custom-btn:hover {
+    background: #446a23;
 }
 
 
