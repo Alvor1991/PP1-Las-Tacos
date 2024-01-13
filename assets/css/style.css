@@ -25,6 +25,11 @@ h1, h2, h3 {
     color: #252525;
 }
 
+.section {
+    padding: 0 40px;
+    margin-top: 40px;
+}
+
 /****************  
 * HEADER STYLES *
 ****************/
@@ -187,4 +192,9 @@ footer a {
     #menu a:hover{
         border-bottom: 1px solid #3a3a3a;
     }
+
+    #about-section .container p {
+        margin: 0 150px;
+      }
+
 }
