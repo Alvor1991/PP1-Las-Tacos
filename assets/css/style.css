@@ -57,6 +57,14 @@ h1 {
     margin-bottom: 1em;
 }
 
+.active-red {
+    border-bottom: 1px solid #784742;
+}
+
+.active-white {
+    border-bottom: 1px solid #f2eded;
+}
+
 .active-green {
     border-bottom: 1px solid #56733C;
 }
