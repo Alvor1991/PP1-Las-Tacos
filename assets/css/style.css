@@ -155,9 +155,39 @@ main {
 *                              *
 *******************************/
 
+#menu-section {
+    width: 90%;
+    margin: 20px auto;
+}
 
+#menu-section h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 280%;
+}
 
+#menu-left > div,
+#menu-right > div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
 
+#menu-items p {
+    padding: 10px 0;
+}
+
+#menu-items hr {
+    margin: 5px 0;
+    width: 50%;
+}
+
+#menu-section #menu-right hr {
+    border-color: #784742;
+}
+
+#menu-section #menu-left hr {
+    border-color: blue;
+}
 
 /********* 
 * FOOTER *
@@ -225,7 +255,31 @@ footer a {
         /* Push main content down to accommodate larger header */
         margin-top: 79px;
     }
+
+     /* Menu section */
+     #menu-left,
+     #menu-right {
+         display: flex;
+         flex-direction: column;
+         width: 100%;    
+     }
+
+     #menu-left>div,
+     #menu-right>div {
+         width: 75%;
+     }
+ 
+     #menu-right>div {
+         text-align: end;
+         align-self: flex-end;
+     }
+
+     #menu-section #menu-right hr {
+        margin-left: auto;
+        /* Add more styles as needed */
+    }
 }
+
 
 /****************  
 * LARGE SCREENS *
@@ -240,5 +294,21 @@ footer a {
     #about-section .container p {
         margin: 0 150px;
       }
+}
 
+@media screen and (min-width: 1200px) {    
+
+    /* Menu section */
+    #menu-items {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #menu-right > div {
+        align-self: flex-start;
+    }
+
+    #menu-left > div {
+        align-self: flex-end;
+    }
 }
