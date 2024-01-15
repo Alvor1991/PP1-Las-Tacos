@@ -30,10 +30,13 @@ h5 {
     font-weight: 900;
 }
 
-
 .section {
     padding: 0 40px;
     margin-top: 40px;
+}
+
+.section p {
+    line-height: 2.0;
 }
 
 /****************  
