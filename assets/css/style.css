@@ -310,6 +310,10 @@ footer a {
         margin-top: 79px;
     }
 
+    #intro-section .container p {
+        margin: 0 150px;
+      }
+
      /* Menu section */
      #menu-left,
      #menu-right {
