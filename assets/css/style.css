@@ -245,10 +245,11 @@ main {
 **********/
 
 footer {
-    margin-top: 40px;
+    margin: 40px 0;
     border-top: Solid 1px green;
     padding-top: 40px;
 }
+
 
 footer a {
     color: inherit;
