@@ -235,6 +235,10 @@ main {
     color: #fafafa;
 }
 
+.map {
+    border-radius: 10px;   /* Optional: Add border-radius for rounded corners */
+}
+
 .col-md-6 {
     margin-bottom: 15px;
 }
@@ -307,7 +311,7 @@ footer a {
         margin-top: 79px;
     }
 
-
+    /* Intro Page */
     #intro-section .container p {
         margin: 0 150px;
     }
