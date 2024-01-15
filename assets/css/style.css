@@ -1,5 +1,5 @@
 /* Google fonts import */
-@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Lato:wght@300&display=swap");
+  @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
 
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
@@ -15,7 +15,7 @@ body {
     flex-direction: column;
     /* Generic project styles */
     color: #3a3a3a;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 h1,
@@ -27,10 +27,11 @@ h3 {
     color: #252525;
 }
 
-h5 {
-    color: red;
+span.bold {
+    font-weight: bold;
+    color: #784742;
+    font-size: large;
 }
-
 
 .section {
     padding: 0 40px;
@@ -188,11 +189,6 @@ main {
     margin-bottom: 20px;
 }
 
-
-#menu-items p {
-    padding: 10px 0;
-}
-
 #menu-items hr {
     margin: 5px 0;
     width: 50%;
@@ -283,6 +279,7 @@ footer a {
     font-size: 30px;
     margin: 0 10px;
 }
+
 
 /****************  
 * TABLET SCREENS *
