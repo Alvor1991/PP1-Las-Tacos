@@ -27,7 +27,7 @@ h1, h2, h3 {
 
 h5 {
     color: red;
-    font-size: 60%;
+    font-weight: 900;
 }
 
 
@@ -250,7 +250,6 @@ footer {
     padding-top: 40px;
 }
 
-
 footer a {
     color: inherit;
 }
@@ -339,11 +338,24 @@ footer a {
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-    #menu a:hover{
-        border-bottom: 1px solid #3a3a3a;
+    #menu li:hover a {
         text-decoration: none;
+        border-bottom: 1px solid #3a3a3a;
+    }
+
+    .hover-red:hover {
+        color: #784742; 
+    }
+
+    .hover-white:hover {
+        color: #f2eded; 
+    }
+
+    .hover-green:hover {
+        color: #56733C; 
     }
 }
+
 
 @media screen and (min-width: 1200px) {    
 
