@@ -25,6 +25,12 @@ h1, h2, h3 {
     color: #252525;
 }
 
+h5 {
+    color: red;
+    font-size: 60%;
+}
+
+
 .section {
     padding: 0 40px;
     margin-top: 40px;
@@ -193,7 +199,7 @@ main {
 
 /*******************************
 *                              *
-*         MENU PAGE            *
+*         CONTACT PAGE         *
 *                              *
 *******************************/
 
