@@ -344,19 +344,21 @@ footer a {
 @media screen and (min-width: 992px) {
     #menu li:hover a {
         text-decoration: none;
-        border-bottom: 1px solid #3a3a3a;
     }
 
     .hover-red:hover {
         color: #784742; 
+        border-bottom: 1px solid #784742;
     }
 
     .hover-white:hover {
-        color: #f2eded; /* Change this to your desired hover color for Menu */
+        color: #f2eded; 
+        border-bottom: 1px solid #f2eded;
     }
 
     .hover-green:hover {
-        color: #56733C; /* Change this to your desired hover color for Contact */
+        color: #56733C; 
+        border-bottom: 1px solid #56733C;
     }
 }
 
