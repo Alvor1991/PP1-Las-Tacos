@@ -39,9 +39,15 @@ section p {
     color: #784742;
 }
 
+.yellow {
+    color: #EACA3E;
+}
+
 .green {
     color: #56733C;
 }
+
+
 
 .col-md-6 {
     margin-bottom: 40px;
