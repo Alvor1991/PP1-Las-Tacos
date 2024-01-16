@@ -26,13 +26,6 @@ body h2 {
     color: #252525;
 }
 
-
-span.bold {
-    font-weight: bold;
-    color: #784742;
-    font-size: large;
-}
-
 .section {
     padding: 0 40px;
     margin-top: 40px;
@@ -179,7 +172,7 @@ main {
 
 #menu-left h2 {
     font-size: 200%;
-    color: #784742
+    color: #EACA3E;
 }
 
 #menu-right h2 {
@@ -324,6 +317,15 @@ footer a {
         line-height: 75px;
         margin: 0 0.5rem;
     }
+
+    .red {
+        color: #784742;
+    }
+
+    .green {
+        color: #56733C;
+    }
+
 
     /* Main content */
     main {
