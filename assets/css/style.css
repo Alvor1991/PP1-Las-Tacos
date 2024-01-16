@@ -8,6 +8,16 @@
     box-sizing: border-box;
 }
 
+
+.red {
+    color: #784742;
+}
+
+.green {
+    color: #56733C;
+}
+
+
 /* General styles */
 body {
     min-height: 100vh;
@@ -317,15 +327,6 @@ footer a {
         line-height: 75px;
         margin: 0 0.5rem;
     }
-
-    .red {
-        color: #784742;
-    }
-
-    .green {
-        color: #56733C;
-    }
-
 
     /* Main content */
     main {
