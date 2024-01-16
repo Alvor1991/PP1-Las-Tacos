@@ -8,16 +8,6 @@
     box-sizing: border-box;
 }
 
-
-.red {
-    color: #784742;
-}
-
-.green {
-    color: #56733C;
-}
-
-
 /* General styles */
 body {
     min-height: 100vh;
@@ -43,6 +33,14 @@ body h2 {
 
 section p {
     line-height: 2.0;
+}
+
+.red {
+    color: #784742;
+}
+
+.green {
+    color: #56733C;
 }
 
 /****************  
@@ -134,8 +132,6 @@ main {
     position: relative;
     box-shadow: 0 2px 2px #3a3a3a;
 }
-
-
 
 .custom-btn {
     width: 100px;
@@ -293,6 +289,11 @@ footer a {
     margin: 0 10px;
 }
 
+/* margin for hours section on small screens */
+.footer .row .col.text-center.hours {
+    margin-top: 40px;
+}
+
 
 /****************  
 * TABLET SCREENS *
@@ -359,6 +360,10 @@ footer a {
 
     #menu-section #menu-right hr {
         margin-left: auto;
+    }
+
+    .footer .row .col.text-center.hours {
+        margin-top: 0;
     }
 }
 
