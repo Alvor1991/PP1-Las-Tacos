@@ -19,13 +19,11 @@ body {
 }
 
 body h1,
-body h2,
-body h3 {
+body h2 {
     font-family: 'Amatic SC', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #252525;
-    font-weight: 700;
 }
 
 
@@ -173,11 +171,27 @@ main {
 *                              *
 *******************************/
 
-#menu-section h2 {
+#menu-section h1 {
     margin-bottom: 20px;
     text-align: center;
     font-size: 280%;
 }
+
+#menu-left h2 {
+    font-size: 200%;
+    color: #784742
+}
+
+#menu-right h2 {
+    font-size: 200%;
+    color: #56733C
+}
+
+#menu-section h3 {
+    font-size: 100%;
+    font-weight: 700;
+}
+
 
 #menu-left>div,
 #menu-right>div {
