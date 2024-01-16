@@ -122,7 +122,6 @@ main {
     margin-top: 60px;
 }
 
-
 /*******************************
 *                              *
 *         INTRO PAGE           *
@@ -160,7 +159,6 @@ main {
     box-shadow: rgb(69, 69, 69) 0px 20px 30px -10px;
     transition: transform .2s;
     border-radius: 10px;
-    margin-bottom: 20px;
 }
 
 .img-fluid:hover {
@@ -286,17 +284,15 @@ footer p {
     line-height: 1.2;
 }
 
-.col-md-3 .fa-brands {
+.col-md-4 {
+    margin-bottom: 40px;
+}
+
+.col-md-4 .fa-brands {
     color: #784742;
     font-size: 30px;
     margin: 0 10px;
 }
-
-/* increase margin space for hours section */
-.footer .row .col.text-center.hours {
-    margin-top: 40px;
-}
-
 
 /****************  
 * TABLET SCREENS *
@@ -338,13 +334,17 @@ footer p {
         margin-top: 79px;
     }
 
+    .section {
+        margin-bottom: 40px;
+    }
+
     /* Intro Page */
     #intro-section .container p {
         margin: 0 150px;
     }
 
     .col-md-6 {
-        margin-bottom: 0;
+        margin-bottom: 50px;
     }
 
     /* Menu Page */
@@ -374,11 +374,8 @@ footer p {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        align-items: center; 
-        text-align: center;
       }    
 }
-
 
 /****************  
 * LARGE SCREENS *
