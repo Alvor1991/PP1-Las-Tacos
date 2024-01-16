@@ -87,8 +87,8 @@ header a {
     border-bottom: 1px solid #784742;
 }
 
-.active-white {
-    border-bottom: 1px solid #f2eded;
+.active-yellow {
+    border-bottom: 1px solid #EACA3E;
 }
 
 .active-green {
@@ -141,6 +141,8 @@ main {
     box-shadow: 0 2px 2px #3a3a3a;
 }
 
+/* Info Section */
+
 .custom-btn {
     width: 100px;
     height: 40px;
@@ -161,6 +163,14 @@ main {
     color: #fff;
 }
 
+#info-section h3 {
+    font-size: 100%;
+    font-weight: 700;
+}
+
+
+/* Image Section */
+
 .img-fluid {
     max-width: 100%;
     height: auto;
@@ -173,6 +183,9 @@ main {
     transform: scale(1.1);
 }
 
+.col-md-3 {
+    margin-bottom: 15px
+}
 
 /*******************************
 *                              *
@@ -200,7 +213,6 @@ main {
     font-size: 100%;
     font-weight: 700;
 }
-
 
 #menu-left>div,
 #menu-right>div {
@@ -339,11 +351,11 @@ footer p {
     /* Main Content */
     main {
         /* Push main content down to accommodate larger header */
-        margin-top: 100px;
+        margin-top: 79px;
     }
 
     .section {
-        margin-bottom: 40px;
+        margin-top: 50px;
     }
 
     /* Intro Page */
@@ -351,8 +363,16 @@ footer p {
         margin: 0 150px;
     }
 
+    .menu-info {
+        margin-top: 50px;
+    }
+
     .col-md-6 {
         margin-bottom: 50px;
+    }
+
+    .col-md-3 {
+        margin-bottom: 0px;
     }
 
     /* Menu Page */
@@ -400,7 +420,7 @@ footer p {
         border-bottom: 1px solid #784742;
     }
 
-    .hover-white:hover {
+    .hover-yellow:hover {
         color: #EACA3E;
         border-bottom: 1px solid #EACA3E;
     }
