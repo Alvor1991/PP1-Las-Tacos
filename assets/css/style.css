@@ -48,7 +48,6 @@ section p {
 }
 
 
-
 .col-md-6 {
     margin-bottom: 40px;
 }
@@ -58,7 +57,7 @@ section p {
 ****************/
 
 header {
-    background-color: #ffffff;
+    background-color: #FAFCF7;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -99,7 +98,7 @@ header a {
 /* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
-    background-color: #ffffff;
+    background-color: #FAFCF7;
     width: 100%;
     left: 0;
     padding: 0 1rem;
@@ -145,14 +144,14 @@ main {
 .custom-btn {
     width: 100px;
     height: 40px;
-    color: #fff;
+    color: #fafafa;
     border-radius: 5px;
     padding: 10px 25px;
     font-weight: 500;
     transition: background 0.3s ease;
     margin-left: 0;
     border: none;
-    background: #678d46;
+    background: #56733C;
     margin-right: 10px;
 }
 
@@ -231,34 +230,34 @@ main {
 
 
 #book-form {
-    color: #ffffff;
-    background-color: rgba(60, 60, 60, 0.6);
+    color: #3a3a3a;
+    background-color: #FAFCF7;
+    border: 1px solid #784742;
     padding: 30px;
     border-radius: 10px;
 }
 
 #book-form>h2 {
-    color: #fafafa;
+    color: #3a3a3a;
     margin-bottom: 20px;
 }
 
 .text-input {
-    background: transparent;
-    color: #fafafa;
+    color: #3a3a3a;
     width: 100%;
     height: 25px;
     margin: 5px 0 20px 0;
-    border: 1px solid #fafafa;
-    border-radius: 2px;
+    border: 1px solid #784742;
+    border-radius: 10px;
     padding: 0 5px;
 }
 
 .book-button {
     margin-top: 20px;
-    border-radius: 2px;
+    border-radius: 5px;
     padding: 15px 32px;
     font-size: 100%;
-    background-color: #454b1b;
+    background-color: #56733C;
     color: #fafafa;
 }
 
@@ -340,7 +339,7 @@ footer p {
     /* Main Content */
     main {
         /* Push main content down to accommodate larger header */
-        margin-top: 79px;
+        margin-top: 100px;
     }
 
     .section {
@@ -402,8 +401,8 @@ footer p {
     }
 
     .hover-white:hover {
-        color: #f2eded;
-        border-bottom: 1px solid #f2eded;
+        color: #EACA3E;
+        border-bottom: 1px solid #EACA3E;
     }
 
     .hover-green:hover {
