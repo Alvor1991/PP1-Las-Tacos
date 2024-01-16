@@ -43,6 +43,10 @@ section p {
     color: #56733C;
 }
 
+.col-md-6 {
+    margin-bottom: 40px;
+}
+
 /****************  
 * HEADER STYLES *
 ****************/
@@ -253,13 +257,7 @@ main {
 
 .map {
     border-radius: 10px;
-    /* Optional: Add border-radius for rounded corners */
 }
-
-.col-md-6 {
-    margin-bottom: 15px;
-}
-
 
 /********* 
 * FOOTER *
@@ -289,7 +287,7 @@ footer a {
     margin: 0 10px;
 }
 
-/* margin for hours section on small screens */
+/* increase margin space for hours section */
 .footer .row .col.text-center.hours {
     margin-top: 40px;
 }
