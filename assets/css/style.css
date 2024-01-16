@@ -147,10 +147,13 @@ main {
     margin-left: 0;
     border: none;
     background: #678d46;
+    margin-right: 10px;
 }
 
 .custom-btn:hover {
     background: #446a23;
+    text-decoration: none;
+    color: #fff;
 }
 
 .img-fluid {
