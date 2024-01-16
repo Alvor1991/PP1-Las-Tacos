@@ -327,7 +327,7 @@ footer a {
         margin: 0 0.5rem;
     }
 
-    /* Main content */
+    /* Main Content */
     main {
         /* Push main content down to accommodate larger header */
         margin-top: 79px;
@@ -338,7 +338,11 @@ footer a {
         margin: 0 150px;
     }
 
-    /* Menu section */
+    .col-md-6 {
+        margin-bottom: 0;
+    }
+
+    /* Menu Page */
     #menu-left,
     #menu-right {
         display: flex;
