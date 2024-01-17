@@ -14,7 +14,7 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic project styles */
-    color: #3a3a3a;
+    color: #050505;
     font-family: 'Lato', sans-serif;
 }
 
@@ -62,7 +62,7 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a;
+    box-shadow: 0 2px 2px #56733C;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -102,7 +102,7 @@ nav {
     width: 100%;
     left: 0;
     padding: 0 1rem;
-    box-shadow: 0 2px 2px #3a3a3a;
+    box-shadow: 0 2px 2px #784742;
     display: none;
     top: 100%;
 }
@@ -138,13 +138,8 @@ main {
     width: 100%;
     background: url("../images/home-image.webp") no-repeat center center/cover;
     position: relative;
-    box-shadow: 0 2px 2px #3a3a3a;
+    box-shadow: 0 2px 2px #56733C;
 }
-
-#intro-section h1 {
-    font-size: 300%;
-}
-
 
 /* Info Section */
 
@@ -294,9 +289,10 @@ main {
 footer {
     margin-top: 40px;
     padding-top: 40px;
-    border-top: Solid 1px green;
+    border-top: solid 1px #56733C;
     background-color: #FAFCF7;
 }
+
 
 #footer .container {
     align-items: center; 
@@ -358,7 +354,8 @@ footer p {
         line-height: 75px;
         margin: 0 0.5rem;
     }
-
+ 
+    
     /* Main Content */
     main {
         /* Push main content down to accommodate larger header */
@@ -370,8 +367,15 @@ footer p {
     }
 
     /* Intro Page */
+
+    #intro-section h1 {
+        font-size: 300%;
+    }
+    
+
     #intro-section .container p {
         margin: 0 150px;
+        font-size: 130%;
     }
 
     .menu-info {
