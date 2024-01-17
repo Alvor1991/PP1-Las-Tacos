@@ -192,18 +192,17 @@ main {
 *                              *
 *******************************/
 
-#food-menu-section h1 {
+.food-menu-section h1 {
     margin-bottom: 20px;
     text-align: center;
     font-size: 280%;
 }
 
-#cocktail-menu-section h1 {
+.cocktail-menu-section h1 {
     margin-bottom: 20px;
     text-align: center;
     font-size: 280%;
 }
-
 
 .menu-left h2 {
     font-size: 200%;
@@ -215,12 +214,12 @@ main {
     color: #56733C
 }
 
-#food-menu-section h3 {
+.food-menu-section h3 {
     font-size: 100%;
     font-weight: 700;
 }
 
-#cocktail-menu-section h3 {
+.cocktail-menu-section h3 {
     font-size: 100%;
     font-weight: 700;
 }
@@ -236,19 +235,19 @@ main {
     width: 50%;
 }
 
-#food-menu-section .menu-right hr {
+.food-menu-section .menu-right hr {
     border-color: #56733C; 
 }
 
-#cocktail-menu-section .menu-right hr {
+.cocktail-menu-section .menu-right hr {
     border-color: #56733C; 
 }
 
-#food-menu-section .menu-left hr {
+.food-menu-section .menu-left hr {
     border-color: #784742;
 }
 
-#cocktail-menu-section .menu-left hr {
+.cocktail-menu-section .menu-left hr {
     border-color: #784742;
 }
 
@@ -430,11 +429,11 @@ footer p {
         align-self: flex-end;
     }
 
-    #food-menu-section .menu-right hr {
+    .food-menu-section .menu-right hr {
         margin-left: auto;
     }
 
-    #cocktail-menu-section .menu-right hr {
+    .cocktail-menu-section .menu-right hr {
         margin-left: auto;
     }
 
