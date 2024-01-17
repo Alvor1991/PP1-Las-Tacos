@@ -102,7 +102,7 @@ nav {
     width: 100%;
     left: 0;
     padding: 0 1rem;
-    box-shadow: 0 2px 2px #784742;
+    box-shadow: 0 2px 2px #56733C;
     display: none;
     top: 100%;
 }
@@ -158,13 +158,14 @@ main {
 }
 
 .custom-btn:hover {
-    background: #27351D;
+    background: #405B3A;
     text-decoration: none;
     color: #fff;
 }
 
 #info-section h3 {
     font-size: 100%;
+    font-weight: 700;
 }
 
 /* Image Section */
@@ -231,7 +232,6 @@ main {
     border-color: #784742;
 }
 
-
 /*******************************
 *                              *
 *         CONTACT PAGE         *
@@ -253,7 +253,7 @@ main {
 }
 
 .text-input {
-    color: #3a3a3a;
+    color: #050505;
     width: 100%;
     height: 25px;
     margin: 5px 0 20px 0;
@@ -272,11 +272,10 @@ main {
 }
 
 .book-button:hover {
-    background: #27351D;
+    background: #405B3A;
     text-decoration: none;
     color: #fff;
 }
-
 
 .map {
     border-radius: 10px;
@@ -292,7 +291,6 @@ footer {
     border-top: solid 1px #56733C;
     background-color: #FAFCF7;
 }
-
 
 #footer .container {
     align-items: center; 
@@ -316,7 +314,6 @@ footer p {
 }
 
 .col-md-4 .fa-brands {
-    color: #784742;
     font-size: 30px;
     margin: 0 10px;
 }
@@ -355,7 +352,6 @@ footer p {
         margin: 0 0.5rem;
     }
  
-    
     /* Main Content */
     main {
         /* Push main content down to accommodate larger header */
@@ -372,7 +368,6 @@ footer p {
         font-size: 300%;
     }
     
-
     #intro-section .container p {
         margin: 0 150px;
         font-size: 130%;
