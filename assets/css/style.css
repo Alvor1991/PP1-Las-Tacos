@@ -231,7 +231,7 @@ main {
     margin-bottom: 20px;
 }
 
-#menu-items hr {
+.menu-items hr {
     margin: 5px 0;
     width: 50%;
 }
@@ -251,7 +251,6 @@ main {
 #cocktail-menu-section #menu-left hr {
     border-color: #784742;
 }
-
 
 /*******************************
 *                              *
@@ -477,7 +476,7 @@ footer p {
 @media screen and (min-width: 1200px) {
 
     /* Menu section */
-    #menu-items {
+    .menu-items {
         display: flex;
         flex-direction: row;
     }
