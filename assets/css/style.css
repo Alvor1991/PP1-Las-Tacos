@@ -205,12 +205,12 @@ main {
 }
 
 
-#menu-left h2 {
+.menu-left h2 {
     font-size: 200%;
     color: #784742;
 }
 
-#menu-right h2 {
+.menu-right h2 {
     font-size: 200%;
     color: #56733C
 }
@@ -225,8 +225,8 @@ main {
     font-weight: 700;
 }
 
-#menu-left>div,
-#menu-right>div {
+.menu-left>div,
+.menu-right>div {
     line-height: 20px;
     margin-bottom: 20px;
 }
@@ -236,19 +236,19 @@ main {
     width: 50%;
 }
 
-#food-menu-section #menu-right hr {
+#food-menu-section .menu-right hr {
     border-color: #56733C; 
 }
 
-#cocktail-menu-section #menu-right hr {
+#cocktail-menu-section .menu-right hr {
     border-color: #56733C; 
 }
 
-#food-menu-section #menu-left hr {
+#food-menu-section .menu-left hr {
     border-color: #784742;
 }
 
-#cocktail-menu-section #menu-left hr {
+#cocktail-menu-section .menu-left hr {
     border-color: #784742;
 }
 
@@ -413,28 +413,28 @@ footer p {
     }
 
     /* Menu Page */
-    #menu-left,
-    #menu-right {
+    .menu-left,
+    .menu-right {
         display: flex;
         flex-direction: column;
         width: 100%;
     }
 
-    #menu-left>div,
-    #menu-right>div {
+    .menu-left>div,
+    .menu-right>div {
         width: 75%;
     }
 
-    #menu-right>div {
+    .menu-right>div {
         text-align: end;
         align-self: flex-end;
     }
 
-    #food-menu-section #menu-right hr {
+    #food-menu-section .menu-right hr {
         margin-left: auto;
     }
 
-    #cocktail-menu-section #menu-right hr {
+    #cocktail-menu-section .menu-right hr {
         margin-left: auto;
     }
 
@@ -481,11 +481,11 @@ footer p {
         flex-direction: row;
     }
 
-    #menu-right>div {
+    .menu-right>div {
         align-self: flex-start;
     }
 
-    #menu-left>div {
+    .menu-left>div {
         align-self: flex-end;
     }
 }
