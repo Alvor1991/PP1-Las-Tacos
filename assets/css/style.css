@@ -240,9 +240,18 @@ main {
     border-color: #56733C; 
 }
 
+#cocktail-menu-section #menu-right hr {
+    border-color: #56733C; 
+}
+
+#food-menu-section #menu-left hr {
+    border-color: #784742;
+}
+
 #cocktail-menu-section #menu-left hr {
     border-color: #784742;
 }
+
 
 /*******************************
 *                              *
