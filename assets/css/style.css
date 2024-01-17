@@ -23,7 +23,7 @@ body h2 {
     font-family: 'Amatic SC', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #252525;
+    color: #050505;
 }
 
 .section {
@@ -141,6 +141,11 @@ main {
     box-shadow: 0 2px 2px #3a3a3a;
 }
 
+#intro-section h1 {
+    font-size: 300%;
+}
+
+
 /* Info Section */
 
 .custom-btn {
@@ -158,16 +163,14 @@ main {
 }
 
 .custom-btn:hover {
-    background: #446a23;
+    background: #27351D;
     text-decoration: none;
     color: #fff;
 }
 
 #info-section h3 {
     font-size: 100%;
-    font-weight: 700;
 }
-
 
 /* Image Section */
 
@@ -201,7 +204,7 @@ main {
 
 #menu-left h2 {
     font-size: 200%;
-    color: #EACA3E;
+    color: #784742;
 }
 
 #menu-right h2 {
@@ -226,11 +229,11 @@ main {
 }
 
 #menu-section #menu-right hr {
-    border-color: #784742;
+    border-color: #56733C; 
 }
 
 #menu-section #menu-left hr {
-    border-color: #56733C;
+    border-color: #784742;
 }
 
 
@@ -273,6 +276,13 @@ main {
     color: #fafafa;
 }
 
+.book-button:hover {
+    background: #27351D;
+    text-decoration: none;
+    color: #fff;
+}
+
+
 .map {
     border-radius: 10px;
 }
@@ -282,9 +292,10 @@ main {
 **********/
 
 footer {
-    margin: 40px 0;
-    border-top: Solid 1px green;
+    margin-top: 40px;
     padding-top: 40px;
+    border-top: Solid 1px green;
+    background-color: #FAFCF7;
 }
 
 #footer .container {
@@ -430,7 +441,6 @@ footer p {
         border-bottom: 1px solid #56733C;
     }
 }
-
 
 @media screen and (min-width: 1200px) {
 
