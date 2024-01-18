@@ -109,6 +109,7 @@ Contact | ![Desktop contact wireframe image](assets/wireframes/desktop-contact.p
 
     - The navigation bar is identical in all pages and contains links to all pages to facilitate navigation across the site. It also has a hover effect that changes color to provide feedback to the customer for a better user experience.
 
+
 * **Footer**
 ![Footer image](assets/readme-files/footer.png)
 
@@ -121,15 +122,18 @@ Contact | ![Desktop contact wireframe image](assets/wireframes/desktop-contact.p
 
     - The hero image is designed to attract the customer's attention with a fresh and modern ingredients.
 
+
 * **Info Section**
 ![Info section image](assets/readme-files/intro-section.png)
 
     - Contains a welcome heading and welcome statement. This section communicates the essence of the site and entices customers to explore more about the unique culinary offerings.
 
+
 * **Intro Section**
 ![Intro section image](assets/readme-files/info-section.png)
 
     - Provides a glimpse into the history, mission, and the unique experience that the business offers. It also provides an option to book a reservation or view the food and cocktails menu. 
+
 
 * **Image Section**
 ![Image section image](assets/readme-files/image-section.png)
@@ -144,6 +148,7 @@ Contact | ![Desktop contact wireframe image](assets/wireframes/desktop-contact.p
     - This section provides customers with all the food items available.  
 
     - The food section is fully responsive and easy to replicate in case more food items need to be added.
+
 
 * **Cocktail Section**
 ![Cocktail section image](assets/readme-files/cocktail-menu-section.png)
@@ -162,5 +167,234 @@ Contact | ![Desktop contact wireframe image](assets/wireframes/desktop-contact.p
     - The map displays a Google map of the business' geographical location. This allows the customers to easily find the location from their devices.
 
 [Back to top ⇧](#las-tacos)
+
+## Technologies Used
+
+### Languages Used
+* [HTML5](https://en.wikipedia.org/wiki/HTML5)
+* [CSS3](https://en.wikipedia.org/wiki/CSS)
+
+### Frameworks, Libraries and Programs Used
+
+* [Bootsrap](https://getbootstrap.com/)
+    - Google Fonts was used to import the fonts Raleway, Cabin and Qahiri into the style.css file. These fonts were used throughout the site.
+
+* [Google Fonts](https://fonts.google.com/)
+    - Google Fonts was used to import the fonts Amatic SC and Lato into the style.css file. These fonts were used throughout the site.
+
+* [Font Awesome](https://fontawesome.com/)
+     - Font Awesome was used throughout all pages to add icons in order to create a better visual experience for UX purposes.
+
+* [Codeanywhere](https://codeanywhere.com/)
+     - GitPod was used for writing code, committing, and then pushing to GitHub.
+
+* [GitHub](https://github.com/)
+     - GitHub was used to store the project after pushing.
+
+* [Balsamiq](https://balsamiq.com/)
+     - Balsamiq was used to create the wireframes during the design phase of the project.
+
+* [Am I Responsive?](http://ami.responsivedesign.is/)
+    - Am I Responsive was used in order to see responsive design throughout the process and to generate mockup imagery to be used.
+
+* [Responsive Design Checker](https://www.responsivedesignchecker.com/)
+    - Responsive Design Checker was used in the testing process to check responsiveness on various devices.
+
+* [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
+    - Chrome DevTools was used during development process for code review and to test responsiveness.
+
+* [W3C Markup Validator](https://validator.w3.org/)
+    - W3C Markup Validator was used to validate the HTML code.
+
+* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+    - W3C CSS Validator was used to validate the CSS code.
+
+[Back to top ⇧](#las-tacos)
+
+## Testing
+
+### Testing User Stories
+
+* As a customer, I want to be able to navigate the website intuitively and learn more about the business.
+
+     - The website offers a intuitive structure for the customers to navigate and find the information they are looking for.
+
+    - The navigation bar is clearly presented in all pages for the customers to find with ease and it is easily navigable.
+
+* As a customer, I want to be able to read more about the food and cocktail options available.
+
+    - The menu page presents all food and cocktail options available.
+
+    - Each food and cocktail item have a description and price.
+
+* As a customer, I want to easily find the contact information for the business.
+
+    - The footer contains a clear contact section with all necessary business' contacts.
+
+* As a customer, I want to find social media links to the business.
+
+    - The footer provides link to the business' social media channels.
+
+* As a customer, I want to be able to book a reservation directly from the website.
+
+    - The contact page provides a reservation form for the customer to book a reservation.
+
+    - The contact page can be accessed in three separate ways: the navigation bar, a button on the landing page and in the footer.
+
+* As a customer, I want to easily find the business' location.
+
+    - The book now page contains a find us section with a Google map of the business' geographical location.
+
+
+### Code Validation
+
+* The [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) services were used to validate all pages of the project in order to ensure there were no syntax errors.
+
+    - On the Home page, the W3C Markup Validator found errors concerning headings not being included on the hero section, the intro section and the image section. The hero section tags and image section tags were replaced with divs. The intro section h1 element was replaced with a h2 element.
+
+    - On the Menu page, the W3C Markup Validator found errors regarding duplicate ID values for section tags. I replaced these IDs with classes. Another error was found concerning h1 element to be used as a top-level heading only. I replaced this with a/ h2 element.
+
+    - On the Contact page, the W3C Markup Validator found errors concerning the iframe - a bad value of 100% for attribute width. Removed html iframe styling and replaced the same values in custom CSS. 
+    
+    - W3C CSS Validator found no errors or warnings on my CSS.
+
+### Accessibility
+
+* Used Lighthouse in Chrome DevTools to confirm that the colours and fonts being used throughout the website are easy to read and accessible.
+
+* Lighthouse reports
+
+    - **Landing Page**
+
+    ![Lighthouse report for landing page image](assets/readme-files/lighthouse-report-index.png)
+
+    - **Menu Page**
+
+    ![Lighthouse report for menu page image](assets/readme-files/lighthouse-report-treatments.png)
+
+    - **Contact Page**
+
+    ![Lighthouse report for contact page image](assets/readme-files/lighthouse-report-book-now.png)
+
+
+### Tools Testing
+
+* [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
+
+    - Chrome DevTools was used during the development process to test, explore and modify HTML elements and CSS styles used in the project.
+
+* Responsiveness
+    
+    - [Am I Responsive?](http://ami.responsivedesign.is/#) was used to check responsiveness of the site pages across different devices.
+
+    - [Responsive Design Checker](https://www.responsivedesignchecker.com/) was used to check responsiveness on different screen sizes.
+    
+    - Chrome DevTools was used to test responsiveness in different screen sizes during the development process.
+
+
+### Manual Testing
+
+* Browser Compatibility
+
+    - The website has been tested on the following browsers:
+
+        - **Goolgle Chrome**
+        
+        No appearance, responsiveness or functionality issues.
+
+        - **Safari**
+        
+        No appearance, responsiveness or functionality issues.
+
+        - **Mozilla Firefox**
+        
+        No appearance, responsiveness or functionality issues.
+
+        - **Microsoft Edge**
+        
+        No appearance, responsiveness nor functionality issues.
+
+* Device compatibility
+
+    - The website has been tested on multiple devices, including:
+
+        - **MacBook Pro 15"**
+
+        No appearance, responsiveness nor functionality issues.
+
+        - **Dell Latitude 5300**
+
+        No appearance, responsiveness nor functionality issues.
+
+        - **iPad Pro 12.9"**
+
+        No appearance, responsiveness nor functionality issues.
+
+        - **iPad Pro 10.5"**
+
+        No appearance, responsiveness nor functionality issues.
+
+        - **iPhone XR**
+        
+        No appearance, responsiveness nor functionality issues.
+
+        - **iPhone 7**
+
+        No appearance, responsiveness nor functionality issues.
+
+
+* Common Elements Testing
+
+    - All Pages
+        
+        - **Header**
+
+            - Clicking on the main logo will bring the customer back to the landing page.
+
+        - **Navigation Bar**
+
+            - Hovering on the different navigation bar's links will trigger hover effect, highlighting the link for the customer.
+
+            - Clicking on the navigation bar's links will bring the customer to the specified page.
+        
+        - **Footer**
+        
+            - Clicking on the social media links will open the specific website on a new tab.
+
+    - Landing Page
+
+        - Hovering on the menu button link in the intro section will trigger a hover effect, highlighting the button for the customer.
+
+        - Clicking on the menu button link in the intro section will bring the customer to the menu page.
+
+        - Hovering on the book button link in the intro section will trigger a hover effect, highlighting the button for the customer.
+
+        - Clicking on the book button link on each treatment section will bring the customer to the contact page.
+
+    - Contact Page
+
+        - When filling out the contact form, the customer is required to complete all fields before submitting.
+        
+        - Hovering over the book button will trigger hover effect, highlighting the button for the customer.
+
+        - Clicking and dragging on the map will move the area shown on the map. 
+        
+        - Clicking the plus and minus buttons changes the zoom of the map.
+
+
+[Back to top ⇧](#las-tacos)
+
+
+## Finished Product
+
+Page | Desktop version | Mobile version
+--- | --- | ---
+Index | ![Desktop index page image](assets/readme-files/desktop-index.png) | ![Mobile index page image](assets/readme-files/mobile-index.png)
+Treatments | ![Desktop menu page image](assets/readme-files/desktop-treatments.png) | ![Mobile menu page image](assets/readme-files/mobile-treatments.png)
+Book Now | ![Desktop contact page image](assets/readme-files/desktop-book-now.png) | ![Mobile contact page image](assets/readme-files/mobile-book-now.png)
+
+[Back to top ⇧](#pura-vida-spa)
+
+
 
 
