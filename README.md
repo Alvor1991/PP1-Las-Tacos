@@ -21,9 +21,8 @@ Visit the deployed website [here](https://alvor1991.github.io/Las-Tacos-PP1/).
 2. [Features](#features)
     1. [General](#general)
     2. [Landing Page](#landing-page)
-    3. [Treatments Page](#treatments-page)
-    4. [Book Now Page](#book-now-page)
-    5. [404 Error Page](#404-error-page)
+    3. [Menu Page](#menu-page)
+    4. [Contact Page](#contact-page)
  3. [Technologies Used](#technologies-used)
     1. [Languages Used](#languages-used)
     2. [Frameworks, Libraries and Programs Used](#frameworks-libraries-and-programs-used)
@@ -81,13 +80,13 @@ I want the site to have both an authentic and modern feel. Amatic SC is used for
 
 ### Wireframes
 
-[Balsamiq](https://balsamiq.com/) has been used to showcase the appearance of the site and display the placement of the different elements whitin the pages.
+[Balsamiq](https://balsamiq.com/) has been used to showcase the appearance of the site and display the placement of the different elements within the pages.
 
 Page | Desktop Version | Mobile Version
 --- | --- | ---
 Index | ![Desktop index wireframe image](assets/wireframes/desktop-index.png) | ![Mobile index wireframe image](assets/wireframes/mobile-index.png)
-Menu | ![Desktop menu wireframe image](assets/wireframes/desktop-menu.png) | ![Mobile menu wireframe image](assets/wireframes/mobile-treatments.png)
-Contact | ![Desktop contact wireframe image](assets/wireframes/desktop-contact.png) | ![Mobile contact wireframe image](assets/wireframes/mobile-book-now.png)
+Menu | ![Desktop menu wireframe image](assets/wireframes/desktop-menu.png) | ![Mobile menu wireframe image](assets/wireframes/mobile-menu.png)
+Contact | ![Desktop contact wireframe image](assets/wireframes/desktop-contact.png) | ![Mobile contact wireframe image](assets/wireframes/mobile-contact.png)
 
 [Back to top ⇧](#las-tacos)
 
@@ -107,7 +106,7 @@ Contact | ![Desktop contact wireframe image](assets/wireframes/desktop-contact.p
 
     - The business logo functions as a link to the landing page.
 
-    - The navigation bar is identical in all pages and contains links to all pages to facilitate navigation across the site. It also has a hover effect that changes color to provide feedback to the customer for a better user experience.
+    - The navigation bar is identical in all pages and contains links to all pages to facilitate navigation across the site. It also has a hover effect that changes color to keep with the colour scheme.
 
 
 * **Footer**
@@ -120,7 +119,7 @@ Contact | ![Desktop contact wireframe image](assets/wireframes/desktop-contact.p
 * **Hero Image**
 ![Hero image](assets/readme-files/hero-image.png)
 
-    - The hero image is designed to attract the customer's attention with a fresh and modern ingredients.
+    - The hero image is designed to attract the customer's attention with a fresh and modern look.
 
 * **Info Section**
 ![Info section image](assets/readme-files/intro-section.png)
@@ -161,7 +160,7 @@ Contact | ![Desktop contact wireframe image](assets/wireframes/desktop-contact.p
 
     - The form allows customers to book a reservation on a specific date directly from the business' website.
     
-    - The map displays a Google map of the business' geographical location. This allows the customers to easily find the location from their devices.
+    - The map displays a Google map of the business' geographical location. This allows customers to easily find the location from their devices.
 
 [Back to top ⇧](#las-tacos)
 
@@ -214,9 +213,9 @@ Contact | ![Desktop contact wireframe image](assets/wireframes/desktop-contact.p
 
 * As a customer, I want to be able to navigate the website intuitively and learn more about the business.
 
-     - The website offers a intuitive structure for the customers to navigate and find the information they are looking for.
+     - The website offers an intuitive structure for customers to navigate and find the information they are looking for.
 
-    - The navigation bar is clearly presented in all pages for the customers to find with ease and it is easily navigable.
+    - The navigation bar is clearly presented in all pages for customers to find with ease and it is easily navigable.
 
 * As a customer, I want to be able to read more about the food and cocktail options available.
 
@@ -230,7 +229,7 @@ Contact | ![Desktop contact wireframe image](assets/wireframes/desktop-contact.p
 
 * As a customer, I want to find social media links to the business.
 
-    - The footer provides link to the business' social media channels.
+    - The footer provides links to the business' social media channels.
 
 * As a customer, I want to be able to book a reservation directly from the website.
 
@@ -240,7 +239,7 @@ Contact | ![Desktop contact wireframe image](assets/wireframes/desktop-contact.p
 
 * As a customer, I want to easily find the business' location.
 
-    - The book now page contains a find us section with a Google map of the business' geographical location.
+    - The contact page contains a find us section with a Google map of the business' geographical location.
 
 
 ### Code Validation
@@ -249,7 +248,7 @@ Contact | ![Desktop contact wireframe image](assets/wireframes/desktop-contact.p
 
     - On the Home page, the W3C Markup Validator found errors concerning headings not being included on the hero section, the intro section and the image section. The hero section tags and image section tags were replaced with divs. The intro section h1 element was replaced with a h2 element.
 
-    - On the Menu page, the W3C Markup Validator found errors regarding duplicate ID values for section tags. I replaced these IDs with classes. Another error was found concerning h1 element to be used as a top-level heading only. I replaced this with a/ h2 element.
+    - On the Menu page, the W3C Markup Validator found errors regarding duplicate ID values for section tags. I replaced these IDs with classes. Another error was found concerning h1 element to be used as a top-level heading only. I replaced this with a h2 element.
 
     - On the Contact page, the W3C Markup Validator found errors concerning the iframe - a bad value of 100% for attribute width. Removed html iframe styling and replaced the same values in custom CSS. 
     
@@ -286,7 +285,7 @@ Contact | ![Desktop contact wireframe image](assets/wireframes/desktop-contact.p
 
     - [Responsive Design Checker](https://www.responsivedesignchecker.com/) was used to check responsiveness on different screen sizes.
     
-    - Chrome DevTools was used to test responsiveness in different screen sizes during the development process.
+    - Chrome DevTools was used to test responsiveness in different screen sizes during development.
 
 
 ### Manual Testing
@@ -307,38 +306,25 @@ Contact | ![Desktop contact wireframe image](assets/wireframes/desktop-contact.p
         
         No appearance, responsiveness or functionality issues.
 
-        - **Microsoft Edge**
-        
-        No appearance, responsiveness nor functionality issues.
-
 * Device compatibility
 
     - The website has been tested on multiple devices, including:
 
-        - **MacBook Pro 15"**
+        - **MacBook Air"**
 
         No appearance, responsiveness nor functionality issues.
 
-        - **Dell Latitude 5300**
+        - **iMac20,1**
 
         No appearance, responsiveness nor functionality issues.
 
-        - **iPad Pro 12.9"**
+         - **iPhone 12**
 
         No appearance, responsiveness nor functionality issues.
 
-        - **iPad Pro 10.5"**
+        - **iPhone 11**
 
         No appearance, responsiveness nor functionality issues.
-
-        - **iPhone XR**
-        
-        No appearance, responsiveness nor functionality issues.
-
-        - **iPhone 7**
-
-        No appearance, responsiveness nor functionality issues.
-
 
 * Common Elements Testing
 
@@ -350,9 +336,9 @@ Contact | ![Desktop contact wireframe image](assets/wireframes/desktop-contact.p
 
         - **Navigation Bar**
 
-            - Hovering on the different navigation bar's links will trigger hover effect, highlighting the link for the customer.
+            - Hovering on the navigation bar links will trigger a hover effect, highlighting a different colour for each heading and an accompanying underline.
 
-            - Clicking on the navigation bar's links will bring the customer to the specified page.
+            - Clicking on the navigation bar links will bring the customer to the specified page.
         
         - **Footer**
         
@@ -366,7 +352,7 @@ Contact | ![Desktop contact wireframe image](assets/wireframes/desktop-contact.p
 
         - Hovering on the book button link in the intro section will trigger a hover effect, highlighting the button for the customer.
 
-        - Clicking on the book button link on each treatment section will bring the customer to the contact page.
+        - Clicking on the book button link in the intro section will bring the customer to the contact page.
 
     - Contact Page
 
@@ -387,10 +373,11 @@ Contact | ![Desktop contact wireframe image](assets/wireframes/desktop-contact.p
 Page | Desktop version | Mobile version
 --- | --- | ---
 Index | ![Desktop index page image](assets/readme-files/desktop-index.png) | ![Mobile index page image](assets/readme-files/mobile-index.png)
-Treatments | ![Desktop menu page image](assets/readme-files/desktop-menu.png) | ![Mobile menu page image](assets/readme-files/mobile-menu.png)
-Book Now | ![Desktop contact page image](assets/readme-files/desktop-contact.png) | ![Mobile contact page image](assets/readme-files/mobile-contact.png)
+Menu | ![Desktop menu page image](assets/readme-files/desktop-menu.png) | ![Mobile menu page image](assets/readme-files/mobile-menu.png)
+Contact | ![Desktop contact page image](assets/readme-files/desktop-contact.png) | ![Mobile contact page image](assets/readme-files/mobile-contact.png)
 
 [Back to top ⇧](#las-tacos)
+
 
 ## Deployment
 
@@ -434,16 +421,18 @@ Book Now | ![Desktop contact page image](assets/readme-files/desktop-contact.png
 ### Code
 
 * [W3Schools](https://www.w3schools.com/) was consulted on a regular basis for inspiration.
+* [The Odin Project](https://www.theodinproject.com/) was consulted on a regular basis for inspiration.
+* [Flexbox Froggy](https://flexboxfroggy.com/) was consulted for learning CSS flexbox.
+* [Adobe Colour Wheel](https://color.adobe.com/create/color-wheel) was consulted for colour scheme.
 
 [Back to top ⇧](#las-tacos)
 
 
 ## Acknowledgements
 
-Code Institute and the Slack community for their support, knowledge abd feedback.
+* Code Institute and the Slack community for their support, knowledge abd feedback.
 
 * My tutor, Marcel, for his invaluable feedback and guidance.
-
 
 [Back to top ⇧](#las-tacos)
 
