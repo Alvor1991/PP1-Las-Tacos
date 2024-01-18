@@ -35,7 +35,7 @@ section p {
 }
 
 .yellow {
-    color: #EACA3E;
+    color: #E5B87B;
 }
 
 .green {
@@ -180,14 +180,19 @@ main {
 *                              *
 *******************************/
 
-.food-menu-section h1 {
+.cocktail-menu-section h1 {
     margin-bottom: 20px;
     text-align: center;
     font-size: 280%;
 }
 
+.cocktail-menu-section > h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 280%;
+}
 
-.cocktail-menu-section h1 {
+.food-menu-section h1 {
     margin-bottom: 20px;
     text-align: center;
     font-size: 280%;
