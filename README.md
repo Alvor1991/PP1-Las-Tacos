@@ -122,18 +122,15 @@ Contact | ![Desktop contact wireframe image](assets/wireframes/desktop-contact.p
 
     - The hero image is designed to attract the customer's attention with a fresh and modern ingredients.
 
-
 * **Info Section**
 ![Info section image](assets/readme-files/intro-section.png)
 
     - Contains a welcome heading and welcome statement. This section communicates the essence of the site and entices customers to explore more about the unique culinary offerings.
 
-
 * **Intro Section**
 ![Intro section image](assets/readme-files/info-section.png)
 
     - Provides a glimpse into the history, mission, and the unique experience that the business offers. It also provides an option to book a reservation or view the food and cocktails menu. 
-
 
 * **Image Section**
 ![Image section image](assets/readme-files/image-section.png)
