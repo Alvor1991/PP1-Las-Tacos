@@ -387,11 +387,63 @@ Contact | ![Desktop contact wireframe image](assets/wireframes/desktop-contact.p
 Page | Desktop version | Mobile version
 --- | --- | ---
 Index | ![Desktop index page image](assets/readme-files/desktop-index.png) | ![Mobile index page image](assets/readme-files/mobile-index.png)
-Treatments | ![Desktop menu page image](assets/readme-files/desktop-treatments.png) | ![Mobile menu page image](assets/readme-files/mobile-treatments.png)
-Book Now | ![Desktop contact page image](assets/readme-files/desktop-book-now.png) | ![Mobile contact page image](assets/readme-files/mobile-book-now.png)
+Treatments | ![Desktop menu page image](assets/readme-files/desktop-menu.png) | ![Mobile menu page image](assets/readme-files/mobile-menu.png)
+Book Now | ![Desktop contact page image](assets/readme-files/desktop-contact.png) | ![Mobile contact page image](assets/readme-files/mobile-contact.png)
 
-[Back to top ⇧](#pura-vida-spa)
+[Back to top ⇧](#las-tacos)
+
+## Deployment
+
+* This website was developed using [Codeanywhere](https://codeanywhere.com/), which was then committed and pushed to GitHub using the Codeanywhere terminal.
+
+### GitHub Pages
+
+* Here are the steps to deploy this website to GitHub Pages from its GitHub repository:
+
+    1. Log in to GitHub and locate the [GitHub Repository](https://github.com/).
+
+    2. At the top of the Repository, locate the Settings button on the menu.
+
+        - Alternatively click [here](https://raw.githubusercontent.com/) for a GIF demostration of the process.
+
+    3. Scroll down the Settings page until you locate the Pages section.
+
+    4. Under Source, click the dropdown called None and select Master Branch.
+
+    5. The page will refresh automatically and generate a link to your website.
+
+[Back to top ⇧](#las-tacos)
 
 
+## Credits 
 
+### Content
+
+- All content was written by the developer.
+
+### Media
+
+* [Pexels](https://www.pexels.com/)
+
+    - Hero image: "mexican tacos on the wooden board" by Roman Odinstov.
+    - Image section cocktail-1 image: "glass of cold cocktail with orange" taken by Charlotte May.
+    - Image section tacos-3 image: "mexican tacos with salsa" taken by Roman Odinstov.
+    - Image section cocktail-2 image: "clear drinking glass with yellow liquid" taken by cottonbro studio.
+    - Image section tacos-3 image: "clear drinking glass with yellow liquid" taken by Roman Odinstov.
+
+### Code
+
+* [W3Schools](https://www.w3schools.com/) was consulted on a regular basis for inspiration.
+
+[Back to top ⇧](#las-tacos)
+
+
+## Acknowledgements
+
+Code Institute and the Slack community for their support, knowledge abd feedback.
+
+* My tutor, Marcel, for his invaluable feedback and guidance.
+
+
+[Back to top ⇧](#las-tacos)
 
