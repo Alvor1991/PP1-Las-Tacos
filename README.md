@@ -41,3 +41,31 @@ Visit the deployed website [here](https://alvor1991.github.io/Las-Tacos-PP1/).
     2. [Media](#media)
     3. [Code](#code)
 8. [Acknowledgements](#acknowledgements)
+
+***
+
+## User Experience (UX)
+
+### Project Goals
+
+* Showcase Mexican cuisine - highlight the rich and diverse flavors of Mexican cuisine through engaging visuals and descriptions.
+
+* Provide a seamless user experience - design an intuitive and user-friendly website structure with easy navigation between pages. 
+
+* Encourage customer engagement - include clear calls-to-action, inviting visitors to explore the menu, make reservations or get in touch. 
+
+* Generate interest and drive traffic - optimize the website for search engines to increase visibility and attract customers. 
+
+### User Stories
+
+* As a customer, I want to be able to navigate the website intuitively and learn more about the restaurant.
+
+* As a customer, I want to be able to read more about the food and cocktail options available.
+
+* As a customer, I want to easily find the contact information for the business.
+
+* As a customer, I want to find social media links to the business.
+
+* As a customer, I want to be able to book a reservation directly from the website.
+
+* As a customer, I want to easily find the business' location.
