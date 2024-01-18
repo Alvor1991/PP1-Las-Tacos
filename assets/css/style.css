@@ -17,6 +17,7 @@ body h2 {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #050505;
+    margin-bottom: 20px;
 }
 
 .section {
@@ -39,11 +40,6 @@ section p {
 
 .green {
     color: #56733C;
-}
-
-/* Margin for home and contact pages */
-.col-md-6 {
-    margin-bottom: 40px;
 }
 
 /****************  
@@ -300,6 +296,10 @@ main {
 
 .map {
     border-radius: 10px;
+}
+
+.col-md-6 {
+    margin-bottom: 40px;
 }
 
 /********* 
