@@ -90,3 +90,77 @@ Menu | ![Desktop menu wireframe image](assets/wireframes/desktop-menu.png) | ![M
 Contact | ![Desktop contact wireframe image](assets/wireframes/desktop-contact.png) | ![Mobile contact wireframe image](assets/wireframes/mobile-book-now.png)
 
 [Back to top ⇧](#las-tacos)
+
+
+## Features
+
+### General
+
+* Responsive design across all device sizes.
+
+* Similar color scheme and design throughout all pages to effectively structure, categorise and present the information to customers.
+
+* **Header**
+![Header image](assets/readme-files/header.png)
+    
+    - The header contains the business logo and fully responsive navigation bar positioned across the top of the screen.
+
+    - The business logo functions as a link to the landing page.
+
+    - The navigation bar is identical in all pages and contains links to all pages to facilitate navigation across the site. It also has a hover effect that changes color to provide feedback to the customer for a better user experience.
+
+* **Footer**
+![Footer image](assets/readme-files/footer.png)
+
+    - The footer includes a smaller version of the logo and link to the business' social media channels.
+
+### Landing Page
+
+* **Hero Image**
+![Hero image](assets/readme-files/hero-image.png)
+
+    - The hero image is designed to attract the customer's attention with a fresh and modern ingredients.
+
+* **Info Section**
+![Info section image](assets/readme-files/intro-section.png)
+
+    - Contains a welcome heading and welcome statement. This section communicates the essence of the site and entices customers to explore more about the unique culinary offerings.
+
+* **Intro Section**
+![Intro section image](assets/readme-files/info-section.png)
+
+    - Provides a glimpse into the history, mission, and the unique experience that the business offers. It also provides an option to book a reservation or view the food and cocktails menu. 
+
+* **Image Section**
+![Image section image](assets/readme-files/image-section.png)
+
+    - Contains images, giving the customer a taste of what Mexican food and cocktails the business has to offer. Each image is fully responsive and provides a link to the menu page.
+
+### Menu Page
+
+* **Food Section**
+![Food section image](assets/readme-files/food-menu-section.png)
+
+    - This section provides customers with all the food items available.  
+
+    - The food section is fully responsive and easy to replicate in case more food items need to be added.
+
+* **Cocktail Section**
+![Cocktail section image](assets/readme-files/cocktail-menu-section.png)
+
+    - This section provides customers with all the cocktails items available.  
+
+    - The food section is fully responsive and easy to replicate in case more cocktail items need to be added.
+
+### Contact Page
+
+* **Contact Section**
+![Contact section image](assets/readme-files/contact-section.png)
+
+    - The form allows customers to book a reservation on a specific date directly from the business' website.
+    
+    - The map displays a Google map of the business' geographical location. This allows the customers to easily find the location from their devices.
+
+[Back to top ⇧](#las-tacos)
+
+
