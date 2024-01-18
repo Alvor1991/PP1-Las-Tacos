@@ -174,7 +174,7 @@ Contact | ![Desktop contact wireframe image](assets/wireframes/desktop-contact.p
 ### Frameworks, Libraries and Programs Used
 
 * [Bootsrap](https://getbootstrap.com/)
-    - Google Fonts was used to import the fonts Raleway, Cabin and Qahiri into the style.css file. These fonts were used throughout the site.
+    - Bootsrap was used to organise pages into rows and columns for a clean layout.
 
 * [Google Fonts](https://fonts.google.com/)
     - Google Fonts was used to import the fonts Amatic SC and Lato into the style.css file. These fonts were used throughout the site.
@@ -263,15 +263,15 @@ Contact | ![Desktop contact wireframe image](assets/wireframes/desktop-contact.p
 
     - **Landing Page**
 
-    ![Lighthouse report for landing page image](assets/readme-files/lighthouse-report-index.png)
+    ![Lighthouse report for landing page image](assets/readme-files/lighthouse-index.png)
 
     - **Menu Page**
 
-    ![Lighthouse report for menu page image](assets/readme-files/lighthouse-report-treatments.png)
+    ![Lighthouse report for menu page image](assets/readme-files/lighthouse-menu.png)
 
     - **Contact Page**
 
-    ![Lighthouse report for contact page image](assets/readme-files/lighthouse-report-book-now.png)
+    ![Lighthouse report for contact page image](assets/readme-files/lighthouse-contact.png)
 
 
 ### Tools Testing
