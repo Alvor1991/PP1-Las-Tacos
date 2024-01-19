@@ -260,7 +260,7 @@ Contact | ![Desktop contact wireframe image](assets/wireframes/desktop-contact.p
 
 ### Accessibility
 
-* Used Lighthouse in Chrome DevTools to confirm that the colours and fonts being used throughout the website are easy to read and accessible.
+* Used Lighthouse in Chrome DevTools to confirm that colours and fonts used throughout the website are easy to read and accessible.
 
 * Lighthouse reports
 
@@ -408,13 +408,13 @@ Contact | ![Desktop contact page image](assets/readme-files/desktop-contact.png)
 
 ## Credits 
 
-- Inspiration from nav toggle bar was taken from the Love Running Project.
-
-- Inspiration for the responsive food and cocktail menu on all screen sizes was taken from the Love Running Project.
-
 ### Content
 
 - All content was written by the developer.
+
+- Inspiration for the nav toggle bar was taken from the Love Running Project.
+
+- Inspiration for the responsive food and cocktail menu on all screen sizes was taken from the Love Running Project.
 
 ### Media
 

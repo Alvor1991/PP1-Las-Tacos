@@ -62,6 +62,11 @@ header a {
     color: inherit;
 }
 
+header a#logo h1 {
+    text-decoration: none !important;
+}
+
+
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
