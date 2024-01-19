@@ -108,6 +108,10 @@ Contact | ![Desktop contact wireframe image](assets/wireframes/desktop-contact.p
 
     - The navigation bar is identical in all pages and contains links to all pages to facilitate navigation across the site. It also has a hover effect that changes color to keep with the colour scheme.
 
+    - The navigation bar will collapse on mobile and offer a toggle feature for customers, as shown below.
+
+![Mobile Navigation image](assets/readme-files/mobile-nav.png)
+
 
 * **Footer**
 ![Footer image](assets/readme-files/footer.png)
@@ -403,6 +407,10 @@ Contact | ![Desktop contact page image](assets/readme-files/desktop-contact.png)
 
 
 ## Credits 
+
+- Inspiration from nav toggle bar was taken from the Love Running Project.
+
+- Inspiration for the responsive food and cocktail menu on all screen sizes was taken from the Love Running Project.
 
 ### Content
 
