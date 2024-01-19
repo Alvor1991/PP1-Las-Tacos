@@ -80,7 +80,7 @@ I want the site to have both an authentic and modern feel. Amatic SC is used for
 
 ### Wireframes
 
-[Balsamiq](https://balsamiq.com/) has been used to showcase the appearance of the site and display the placement of the different elements within the pages.
+[Balsamiq](https://balsamiq.com/) was used to create a layout of the website in the planning phase. Here are my initial designs for the layout. 
 
 Page | Desktop Version | Mobile Version
 --- | --- | ---
