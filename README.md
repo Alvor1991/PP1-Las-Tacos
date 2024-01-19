@@ -423,14 +423,14 @@ Contact | ![Desktop contact page image](assets/readme-files/desktop-contact.png)
 * [W3Schools](https://www.w3schools.com/) was consulted on a regular basis for inspiration.
 * [The Odin Project](https://www.theodinproject.com/) was consulted on a regular basis for inspiration.
 * [Flexbox Froggy](https://flexboxfroggy.com/) was consulted for learning CSS flexbox.
-* [Adobe Colour Wheel](https://color.adobe.com/create/color-wheel) was consulted for colour scheme.
+* [Adobe Colour Wheel](https://color.adobe.com/create/color-wheel) was consulted for my colour scheme.
 
 [Back to top ⇧](#las-tacos)
 
 
 ## Acknowledgements
 
-* Code Institute and the Slack community for their support, knowledge abd feedback.
+* Code Institute and the Slack community for their support, knowledge and feedback.
 
 * My tutor, Marcel, for his invaluable feedback and guidance.
 
