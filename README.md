@@ -8,7 +8,7 @@ Las Tacos is a fictional Mexican restaurant located in the heart of Cork city. L
 The purpose of this website is to promote Las Tacos and to provide information to customers about the restaurant, its menu and contact options. The website targets an audience of customers who enjoy Mexican food in a causal dining experience.
 
 
-Visit the deployed website [here](https://alvor1991.github.io/Las-Tacos-PP1/).
+Visit the deployed website [here](https://alvor1991.github.io/PP1-Las-Tacos/).
 
 ## Table of Contents
 
